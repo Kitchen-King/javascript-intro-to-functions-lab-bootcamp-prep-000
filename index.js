@@ -5,7 +5,7 @@ function logWhisper(a) {return console.log(a.toLowerCase())}
 function sayHiToGrandma(a) {
   if (a === a.toLowerCase()) return `I can\'t hear you!`
   }
-{else if (a === a.toUpperCase()) return `YES INDEED!`
+else if (a === a.toUpperCase()) {return `YES INDEED!`
 }
-{else if (a === `I love you, Grandma.`) return `I love you, too!`
+else if (a === `I love you, Grandma.`) {return `I love you, too!`
 }
